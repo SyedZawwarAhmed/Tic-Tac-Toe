@@ -28,8 +28,17 @@ h1 {
     font-size: 90px;
     outline: none;
     background-color: transparent;
+    border: none;
 }
 
 .btn:disabled {
     color: black;
+}
+
+#one, #four, #seven, #two, #five, #eight {
+    border-right: 3px solid black;
+}
+
+#one, #two, #three, #four, #five, #six {
+    border-bottom: 3px solid black;
 }
