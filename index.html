@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="playerNames.css">
+</head>
+<body>
+    <div id="names">
+        <h2>Player 1</h2>
+        <input id="player-one" type="text" placeholder="Enter Name">
+        <h2>Player 2</h2>
+        <input id="player-two" type="text" placeholder="Enter Name">
+        <button id="play" onclick="updateName()">Play!</button>
+    </div>
+
+    <h1 id="win-label"></h1>
+
+    <div class="container">
+        <button id="one" class="btn" onclick="turnTracker(); marker('one')"></button>
+        <button id="two" class="btn" onclick="turnTracker(); marker('two')"></button>
+        <button id="three" class="btn" onclick="turnTracker(); marker('three')"></button>
+        <button id="four" class="btn" onclick="turnTracker(); marker('four')"></button>
+        <button id="five" class="btn" onclick="turnTracker(); marker('five')"></button>
+        <button id="six" class="btn" onclick="turnTracker(); marker('six')"></button>
+        <button id="seven" class="btn" onclick="turnTracker(); marker('seven')"></button>
+        <button id="eight" class="btn" onclick="turnTracker(); marker('eight')"></button>
+        <button id="nine" class="btn" onclick="turnTracker(); marker('nine')"></button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,21 @@
+#names {
+    display: flex;
+    flex-direction: column;
+}
+
+#names > * {
+    margin-bottom: 10px;
+}
+
+#play {
+    margin-top: 10px;
+    height: 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    height: 20px;
+}

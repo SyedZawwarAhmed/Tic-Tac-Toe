@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 90px;
+    min-height: 100px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    font-size: 90px;
+    outline: none;
+    background-color: transparent;
+}
+
+.btn:disabled {
+    color: black;
+}
